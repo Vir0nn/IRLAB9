@@ -1,0 +1,4 @@
+flight_id,airline,origin,destination,date,price
+1,AirIndia,Delhi,Paris,2025-10-05,500
+2,Emirates,Delhi,Paris,2025-10-05,550
+3,Qatar,Delhi,Paris,2025-10-05,480
