@@ -1,4 +1,114 @@
-hotel_id,name,city,price_per_night,rating
-1,Hotel Le Paris,Paris,120,4.5
-2,Budget Inn,Paris,70,3.8
-3,Luxury Stay,Paris,200,4.9
+hotel_id,name,city,address,latitude,longitude,price_per_night,rating,num_reviews,stars,amenities,availability_rooms,distance_to_center_km
+5000,Boutique Comfort Par,Paris,270 Lane King,48.030919,1.991242,159,4.3,2477,3,"Airport Shuttle, Restaurant, Breakfast Included, Free WiFi, Parking",7,0.23
+5001,Hotel Royale Par,Paris,159 Lane Central,47.974778,1.921264,285,4.8,1696,5,"Spa, Gym",6,1.62
+5002,Traveler's Rest Par,Paris,211 Street Market,48.064911,1.938116,183,4.2,1865,3,"Parking, Pet Friendly, Pool, Gym, Free WiFi",16,8.89
+5003,Aurora Suites Par,Paris,231 Lane Market,48.084874,2.056216,243,3.1,1338,5,"Bar, Parking, Gym, Pool, Restaurant, Pet Friendly",9,5.54
+5004,Comfort Stay Par,Paris,80 Boulevard Central,48.040003,2.049685,235,4.0,1210,3,"Pool, Parking, Airport Shuttle, Restaurant",3,9.18
+5005,Aurora Suites Par,Paris,255 Lane Central,48.088535,2.042025,269,4.3,72,4,"Breakfast Included, Free WiFi, Bar, Parking, Pet Friendly, Airport Shuttle",6,3.35
+5006,Budget Lodge Par,Paris,92 Avenue Queen,47.929286,1.912407,260,4.3,993,4,"Spa, Free WiFi, Bar, Gym, Restaurant, Pool",17,0.83
+5007,Luxury Palace Par,Paris,138 Street Central,48.07377,2.072089,200,4.3,2491,3,"Gym, Spa, Restaurant",5,11.8
+5008,Cityview Residence Par,Paris,105 Street Central,47.923871,1.908127,174,4.6,1253,3,"Parking, Pet Friendly, Airport Shuttle, Free WiFi, Restaurant",10,6.4
+5009,Comfort Stay Par,Paris,276 Rue Central,47.931874,2.008616,197,4.7,1376,3,"Spa, Gym, Restaurant, Parking",20,0.3
+5010,Urban Retreat Par,Paris,187 Boulevard King,48.080899,2.02274,211,3.5,484,4,"Spa, Pet Friendly, Parking, Free WiFi, Restaurant",11,6.27
+5011,Aurora Suites Par,Paris,238 Boulevard Saint,47.959287,2.030306,147,3.9,288,3,"Gym, Bar, Breakfast Included",6,6.55
+5012,Luxury Palace Par,Paris,232 Rue King,47.904751,2.043374,100,3.6,308,2,"Gym, Spa, Bar, Parking, Restaurant, Airport Shuttle",13,3.93
+5013,Central Plaza Hotel Par,Paris,70 Lane Saint,48.028285,2.02367,179,3.7,1207,4,"Parking, Breakfast Included, Spa, Bar",14,4.7
+5014,Traveler's Rest Par,Paris,25 Boulevard King,48.006694,1.927276,231,4.6,1548,3,"Pet Friendly, Parking",4,1.65
+5015,Hotel Grand Par,Paris,211 Lane Central,48.089396,1.960938,236,3.7,2119,4,"Pool, Parking, Gym",19,10.05
+5016,Heritage Inn Par,Paris,68 Street Central,48.07045,2.070278,334,4.0,295,5,"Breakfast Included, Gym, Restaurant, Pool",11,1.71
+5017,Heritage Inn Lon,London,61 Avenue Central,50.896754,-0.1813,206,4.1,2341,3,"Airport Shuttle, Bar, Pool, Free WiFi",10,3.1
+5018,Heritage Inn Lon,London,233 Avenue Queen,50.912233,-0.073405,321,3.8,2279,5,"Pool, Breakfast Included",8,10.33
+5019,Comfort Stay Lon,London,285 Street Queen,51.056051,-0.094676,231,4.4,2391,4,"Parking, Gym, Free WiFi, Spa, Pool",17,10.75
+5020,Aurora Suites Lon,London,251 Street Queen,50.9742,-0.041712,219,3.9,1645,4,"Pet Friendly, Free WiFi, Gym, Bar",19,8.27
+5021,Budget Lodge Lon,London,273 Street Market,50.918213,-0.106729,244,4.1,1102,4,"Gym, Free WiFi, Parking, Spa",11,4.78
+5022,Seasons Hotel Lon,London,242 Rue Saint,51.115342,-0.155186,266,4.2,2249,4,"Pool, Bar, Pet Friendly, Parking, Spa, Free WiFi",16,3.17
+5023,Seasons Hotel Lon,London,124 Lane Market,50.964696,-0.046456,186,3.9,698,3,"Breakfast Included, Pet Friendly, Spa",6,1.97
+5024,Comfort Stay Lon,London,195 Lane Saint,51.038666,-0.137077,200,4.1,2439,3,"Bar, Free WiFi, Gym",1,1.71
+5025,The Cornerstone Lon,London,92 Street Central,50.889406,-0.105546,141,3.9,2328,2,"Spa, Breakfast Included",6,5.5
+5026,Blue Horizon Lon,London,256 Street King,51.079287,-0.099832,253,3.3,1423,4,"Parking, Breakfast Included, Gym, Restaurant, Bar",4,1.48
+5027,Heritage Inn Lon,London,277 Lane Market,51.078363,-0.098898,197,3.9,1995,3,"Parking, Pet Friendly, Free WiFi",20,5.29
+5028,Central Plaza Hotel Lon,London,199 Rue Central,50.98295,-0.032316,217,4.1,2379,3,"Bar, Pool",8,5.83
+5029,Heritage Inn Lon,London,52 Avenue Central,51.090424,-0.138271,198,3.9,1556,3,"Airport Shuttle, Bar, Parking",3,2.03
+5030,Urban Retreat Lon,London,139 Avenue Central,50.981655,-0.146871,201,3.6,1996,3,"Airport Shuttle, Pet Friendly, Restaurant",8,11.86
+5031,The Cornerstone Lon,London,186 Boulevard King,51.0852,-0.088143,242,3.3,1406,4,"Parking, Free WiFi, Pool, Gym, Airport Shuttle, Pet Friendly",2,9.91
+5032,Blue Horizon Lon,London,232 Rue Saint,50.943142,-0.145833,265,4.1,2467,4,"Pool, Restaurant",14,0.33
+5033,Traveler's Rest Lon,London,275 Avenue King,50.888066,-0.100097,175,4.1,21,3,"Breakfast Included, Spa, Bar",11,8.1
+5034,The Cornerstone Dub,Dubai,112 Lane Saint,25.09477,54.827447,192,4.3,1152,2,"Parking, Gym, Restaurant",12,6.98
+5035,Boutique Comfort Dub,Dubai,99 Boulevard Central,24.842586,54.828954,204,4.4,1833,3,"Parking, Restaurant, Gym, Bar, Pool",14,8.24
+5036,Seasons Hotel Dub,Dubai,24 Boulevard Saint,24.903128,54.953069,222,4.3,1466,4,"Pet Friendly, Free WiFi, Spa, Breakfast Included, Pool, Parking",12,8.15
+5037,Traveler's Rest Dub,Dubai,185 Rue Central,25.172558,54.990622,182,4.5,837,3,"Gym, Spa, Parking",7,2.59
+5038,Heritage Inn Dub,Dubai,192 Street Saint,24.847951,54.831395,268,4.3,193,5,"Airport Shuttle, Parking, Restaurant, Spa, Pool",15,2.36
+5039,Budget Lodge Dub,Dubai,271 Avenue Market,24.888837,55.030666,200,3.1,735,2,"Breakfast Included, Pet Friendly, Restaurant, Pool, Airport Shuttle",0,0.34
+5040,Heritage Inn Dub,Dubai,204 Lane Saint,24.930174,55.045111,228,3.6,1425,3,"Pool, Restaurant, Bar, Breakfast Included",13,8.47
+5041,Hotel Royale Dub,Dubai,196 Boulevard Queen,24.980292,55.028564,246,4.7,2294,5,"Bar, Gym, Pool, Parking, Airport Shuttle",4,5.78
+5042,Hotel Grand Dub,Dubai,100 Boulevard Market,24.853789,55.157308,273,4.2,2322,4,"Free WiFi, Bar, Breakfast Included, Airport Shuttle, Restaurant, Parking",6,9.8
+5043,Blue Horizon Dub,Dubai,59 Boulevard Queen,24.903908,54.944123,241,3.4,2225,4,"Spa, Airport Shuttle, Pet Friendly",16,5.95
+5044,Luxury Palace Dub,Dubai,238 Rue Market,25.045466,54.985501,269,3.8,1677,5,"Breakfast Included, Pool",10,2.89
+5045,Hotel Royale Dub,Dubai,159 Avenue Central,25.057858,54.908499,246,3.9,705,3,"Free WiFi, Pool, Gym",8,11.3
+5046,Luxury Palace Dub,Dubai,50 Street King,24.958818,54.838221,335,3.2,365,5,"Spa, Gym, Pet Friendly, Airport Shuttle, Pool",14,7.59
+5047,Comfort Stay Dub,Dubai,279 Street Saint,24.814062,54.942736,324,3.6,2228,5,"Parking, Restaurant, Bar",16,7.75
+5048,Aurora Suites Dub,Dubai,168 Avenue Market,25.015867,55.121883,223,3.7,20,3,"Pool, Airport Shuttle, Spa, Gym, Restaurant, Free WiFi",15,11.37
+5049,Boutique Comfort Sin,Singapore,14 Boulevard Queen,1.019401,104.059353,201,4.4,1043,3,"Bar, Parking, Gym",8,1.13
+5050,Urban Retreat Sin,Singapore,132 Lane Central,1.061515,104.036928,227,3.5,767,3,"Spa, Breakfast Included, Restaurant",19,5.54
+5051,Luxury Palace Sin,Singapore,261 Street Queen,0.903879,103.909926,161,3.7,1815,3,"Gym, Breakfast Included",4,0.37
+5052,Heritage Inn Sin,Singapore,185 Boulevard Queen,1.057145,103.999679,171,3.6,1627,3,"Pet Friendly, Restaurant",5,2.47
+5053,Traveler's Rest Sin,Singapore,138 Boulevard Saint,0.924392,104.053629,212,3.8,2154,3,"Restaurant, Bar, Spa",10,2.07
+5054,Luxury Palace Sin,Singapore,31 Lane Central,0.924428,103.996246,177,4.2,482,3,"Bar, Airport Shuttle, Free WiFi",5,9.57
+5055,The Cornerstone Sin,Singapore,71 Boulevard King,0.901786,103.908399,244,3.8,665,4,"Breakfast Included, Airport Shuttle, Free WiFi, Restaurant, Pool",20,2.02
+5056,Aurora Suites Sin,Singapore,64 Street Market,0.946535,104.096335,265,3.6,1046,4,"Restaurant, Parking",17,3.68
+5057,Luxury Palace Sin,Singapore,260 Street Central,0.937325,103.969533,270,3.4,1860,4,"Spa, Pet Friendly, Airport Shuttle, Gym",0,9.36
+5058,Aurora Suites Sin,Singapore,204 Street Saint,1.023947,103.972815,214,4.1,1607,4,"Pet Friendly, Restaurant, Pool",19,3.54
+5059,Central Plaza Hotel Sin,Singapore,174 Rue Saint,1.00464,103.913336,203,4.2,2008,4,"Breakfast Included, Free WiFi, Bar",15,6.4
+5060,Luxury Palace Sin,Singapore,141 Rue Queen,0.944145,104.043569,173,3.8,1498,2,"Bar, Airport Shuttle, Free WiFi, Parking, Spa, Pool",16,0.68
+5061,Cityview Residence Sin,Singapore,165 Rue King,1.092117,103.919424,282,3.5,1038,4,"Pool, Pet Friendly, Bar, Airport Shuttle, Free WiFi, Spa",11,8.16
+5062,Luxury Palace Sin,Singapore,228 Rue King,1.058492,104.009993,213,3.8,1349,3,"Bar, Parking, Airport Shuttle, Spa",7,6.85
+5063,Heritage Inn Sin,Singapore,202 Lane Queen,0.972002,103.990481,209,3.7,928,5,"Airport Shuttle, Free WiFi, Spa",17,6.23
+5064,Seasons Hotel Doh,Doha,89 Rue Saint,24.992074,50.931221,185,3.7,2356,3,"Parking, Gym, Breakfast Included, Airport Shuttle, Pool",15,2.24
+5065,Traveler's Rest Doh,Doha,58 Lane Queen,24.907474,51.061668,174,3.3,1726,3,"Gym, Free WiFi",20,9.37
+5066,Central Plaza Hotel Doh,Doha,37 Avenue Central,24.908236,51.007986,177,3.2,1629,2,"Parking, Pet Friendly, Breakfast Included, Restaurant, Gym",9,9.48
+5067,Comfort Stay Doh,Doha,77 Avenue Saint,24.995171,51.049063,168,3.8,554,3,"Restaurant, Pet Friendly, Gym",15,4.86
+5068,The Cornerstone Doh,Doha,110 Lane Central,25.099416,51.00485,214,3.8,1333,3,"Parking, Free WiFi, Spa, Breakfast Included",11,7.47
+5069,Budget Lodge Doh,Doha,236 Lane King,24.988093,51.084843,191,3.4,113,3,"Gym, Pet Friendly, Parking, Breakfast Included",17,6.37
+5070,Boutique Comfort Doh,Doha,290 Boulevard Central,25.045985,50.928269,215,4.1,198,4,"Pool, Free WiFi, Spa, Breakfast Included",19,3.4
+5071,Blue Horizon Doh,Doha,14 Rue Market,25.032075,51.032596,264,4.0,1579,5,"Breakfast Included, Airport Shuttle, Restaurant, Bar, Spa, Pet Friendly",2,2.4
+5072,Aurora Suites Doh,Doha,244 Lane Saint,24.90795,51.084454,237,4.1,1258,3,"Pet Friendly, Spa, Free WiFi",20,3.24
+5073,Central Plaza Hotel Doh,Doha,25 Lane Queen,24.945117,50.968357,153,4.2,951,3,"Gym, Pool, Bar, Pet Friendly, Spa",10,5.5
+5074,Comfort Stay Doh,Doha,115 Street Central,25.008271,51.060021,311,4.4,614,5,"Pool, Airport Shuttle, Breakfast Included, Spa, Bar, Free WiFi",5,3.95
+5075,Seasons Hotel Doh,Doha,84 Rue Queen,25.076026,50.982808,216,3.6,558,3,"Free WiFi, Spa, Gym",19,2.94
+5076,Urban Retreat Doh,Doha,23 Avenue Saint,25.037628,50.99532,232,3.5,1960,3,"Pool, Gym, Pet Friendly",1,5.02
+5077,Hotel Grand Doh,Doha,148 Boulevard King,25.048473,51.097649,195,4.4,1350,4,"Gym, Bar, Pet Friendly, Restaurant, Free WiFi",19,8.88
+5078,Central Plaza Hotel Doh,Doha,170 Boulevard Central,25.087828,51.014387,195,3.4,193,3,"Pet Friendly, Parking, Bar",1,6.78
+5079,Aurora Suites Doh,Doha,35 Street Queen,24.987911,51.07688,260,3.6,243,4,"Pool, Restaurant, Pet Friendly, Free WiFi, Airport Shuttle, Spa",3,2.32
+5080,Seasons Hotel Ist,Istanbul,289 Street Market,40.965424,27.980354,208,3.5,691,3,"Breakfast Included, Parking",14,7.68
+5081,Cityview Residence Ist,Istanbul,278 Boulevard Central,41.044829,27.86396,191,4.6,634,4,"Pool, Parking, Free WiFi",13,3.84
+5082,Luxury Palace Ist,Istanbul,238 Avenue King,40.847022,27.852628,158,3.7,2246,3,"Parking, Restaurant",7,2.76
+5083,Urban Retreat Ist,Istanbul,253 Boulevard Market,40.97675,28.040487,190,4.1,870,2,"Pool, Parking",1,7.91
+5084,Hotel Grand Ist,Istanbul,84 Rue Central,41.135206,27.919377,224,3.8,1184,5,"Parking, Pet Friendly, Pool, Gym, Airport Shuttle, Spa",11,11.19
+5085,Cityview Residence Ist,Istanbul,163 Avenue Queen,41.159012,28.128106,243,3.7,1144,4,"Pet Friendly, Bar, Gym, Airport Shuttle",6,7.42
+5086,Cityview Residence Ist,Istanbul,280 Rue Market,41.08963,28.041911,255,4.0,2172,4,"Parking, Airport Shuttle, Pool, Spa, Bar, Gym",16,8.8
+5087,Blue Horizon Ist,Istanbul,262 Street Central,40.893089,27.916195,143,3.8,869,3,"Bar, Parking, Free WiFi, Pool, Pet Friendly, Spa",20,2.71
+5088,Urban Retreat Ist,Istanbul,113 Avenue Queen,41.116078,27.923109,166,3.5,1642,3,"Parking, Free WiFi, Pool, Breakfast Included, Restaurant, Airport Shuttle",15,11.01
+5089,Budget Lodge Ist,Istanbul,28 Street Market,40.862155,27.984247,306,4.2,249,5,"Spa, Airport Shuttle, Free WiFi, Breakfast Included, Parking, Pool",11,0.98
+5090,Comfort Stay Ist,Istanbul,153 Rue Queen,41.193448,28.050604,237,4.4,1282,4,"Free WiFi, Spa, Bar, Parking",15,10.55
+5091,Hotel Royale Ist,Istanbul,241 Avenue King,41.01004,27.870005,154,4.4,122,3,"Pet Friendly, Pool, Gym, Parking, Restaurant",16,3.86
+5092,Hotel Royale Ist,Istanbul,83 Rue Central,41.070687,27.853087,272,4.2,36,4,"Free WiFi, Breakfast Included, Airport Shuttle, Gym",1,1.42
+5093,Budget Lodge Ist,Istanbul,169 Rue Central,41.103398,28.05554,174,3.6,1826,3,"Spa, Pool",5,3.43
+5094,Hotel Grand Ist,Istanbul,296 Lane Saint,40.882631,27.940127,179,4.0,1295,3,"Airport Shuttle, Pet Friendly, Restaurant, Free WiFi, Breakfast Included, Bar",15,10.86
+5095,Hotel Grand Ist,Istanbul,64 Boulevard Saint,40.834448,27.956767,267,3.2,2205,4,"Restaurant, Pool",2,9.79
+5096,Blue Horizon New,New York,59 Boulevard Queen,40.073791,-73.915914,182,3.6,771,3,"Airport Shuttle, Restaurant, Pet Friendly, Free WiFi",2,5.81
+5097,Hotel Royale New,New York,255 Boulevard King,39.912903,-74.060554,243,3.7,458,4,"Pet Friendly, Breakfast Included, Spa, Restaurant",14,4.93
+5098,Central Plaza Hotel New,New York,132 Lane King,40.01918,-73.810443,194,4.4,1803,3,"Airport Shuttle, Pet Friendly, Gym, Breakfast Included, Parking, Free WiFi",18,10.07
+5099,Cityview Residence New,New York,247 Avenue Central,39.839062,-74.021914,184,4.1,2462,3,"Airport Shuttle, Restaurant, Free WiFi, Pet Friendly, Breakfast Included",4,10.67
+5100,Seasons Hotel New,New York,10 Street King,39.98119,-74.083399,247,3.2,1267,4,"Airport Shuttle, Breakfast Included, Free WiFi, Spa, Bar",12,10.2
+5101,Traveler's Rest New,New York,160 Rue Queen,40.16043,-73.81284,144,3.3,1634,2,"Bar, Parking, Pet Friendly, Gym",17,2.69
+5102,Comfort Stay New,New York,253 Street King,40.022169,-73.862669,197,2.8,534,3,"Free WiFi, Breakfast Included, Parking",4,8.71
+5103,Blue Horizon New,New York,233 Street Saint,39.854888,-73.877623,282,3.8,1863,5,"Airport Shuttle, Gym, Pool, Pet Friendly, Spa",0,7.02
+5104,Traveler's Rest New,New York,131 Lane Queen,39.964335,-73.981533,201,3.9,2396,3,"Breakfast Included, Pool, Spa, Gym, Restaurant",2,6.38
+5105,The Cornerstone New,New York,55 Street Market,40.052265,-73.934505,308,3.8,1427,4,"Free WiFi, Restaurant, Pet Friendly, Spa, Gym, Bar",10,5.17
+5106,Budget Lodge New,New York,160 Avenue King,39.81413,-73.830854,205,4.1,2366,4,"Spa, Free WiFi",9,5.92
+5107,Comfort Stay New,New York,268 Rue Queen,39.90082,-73.953681,158,4.3,2443,3,"Restaurant, Airport Shuttle, Pool",8,9.43
+5108,Heritage Inn New,New York,258 Street Central,40.144806,-74.062861,122,4.8,1711,2,"Gym, Restaurant, Pool, Breakfast Included, Spa",11,0.84
+5109,Boutique Comfort New,New York,69 Rue King,39.985606,-74.009507,222,3.6,1963,3,"Pool, Pet Friendly, Bar, Free WiFi",9,11.14
+5110,Blue Horizon New,New York,205 Avenue Central,40.073151,-74.183593,305,4.1,1136,5,"Spa, Parking, Breakfast Included, Pool",20,7.09
+5111,Blue Horizon New,New York,133 Lane King,40.007981,-73.928913,315,3.4,2171,5,"Restaurant, Airport Shuttle",7,8.76
+5112,Boutique Comfort New,New York,108 Rue Saint,40.047759,-74.177247,207,4.1,2496,4,"Bar, Pool, Breakfast Included",5,3.19

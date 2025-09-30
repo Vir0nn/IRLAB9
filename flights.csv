@@ -1,4 +1,301 @@
-flight_id,airline,origin,destination,date,price
-1,AirIndia,Delhi,Paris,2025-10-05,500
-2,Emirates,Delhi,Paris,2025-10-05,550
-3,Qatar,Delhi,Paris,2025-10-05,480
+flight_id,airline,flight_number,origin,origin_code,destination,destination_code,depart_datetime,arrive_datetime,duration_mins,duration,num_stops,layovers,cabin,aircraft,price_usd,refundable,wifi,bag_allowance_kg
+1000,Air France,AF350,Delhi,DEL,Paris,PAR,2025-10-22 22:07,2025-10-23 07:37,570,9h30m,1,LHR,Economy,A320,537,True,True,25
+1001,Singapore Airlines,SQ303,Hyderabad,HYD,Paris,PAR,2025-12-09 18:26,2025-12-10 07:41,795,13h15m,1,IST,Economy,A330,681,True,True,40
+1002,British Airways,BA881,Bengaluru,BLR,London,LON,2025-11-02 22:19,2025-11-03 05:34,435,7h15m,0,,Business,A330,1676,False,False,20
+1003,Singapore Airlines,SQ400,Chennai,MAA,Paris,PAR,2025-12-20 18:39,2025-12-21 08:24,825,13h45m,1,DXB,Economy,A321,711,False,True,30
+1004,Emirates,EK489,Mumbai,BOM,New York,NYC,2025-10-28 05:43,2025-10-28 13:36,473,7h53m,1,LHR,Economy,B777,636,False,True,20
+1005,British Airways,BA267,Mumbai,BOM,Doha,DOH,2025-11-15 03:08,2025-11-15 08:06,298,4h58m,0,,Economy,A320,406,True,False,40
+1006,British Airways,BA680,Bengaluru,BLR,Paris,PAR,2025-12-25 08:05,2025-12-25 18:25,620,10h20m,0,,Business,A380,2132,False,True,25
+1007,Air France,AF864,Hyderabad,HYD,Doha,DOH,2025-11-27 00:11,2025-11-27 08:39,508,8h28m,1,DXB,Economy,B737,618,False,True,20
+1008,Qatar Airways,QR911,Mumbai,BOM,Istanbul,IST,2025-12-06 07:38,2025-12-06 12:56,318,5h18m,0,,Economy,A380,497,False,True,20
+1009,Singapore Airlines,SQ868,Delhi,DEL,Istanbul,IST,2025-10-27 03:44,2025-10-27 13:49,605,10h05m,1,LHR,Economy,A380,553,False,True,30
+1010,Emirates,EK991,Mumbai,BOM,Doha,DOH,2025-11-30 23:03,2025-12-01 08:59,596,9h56m,1,LHR,Economy,A350,742,True,True,20
+1011,Air India,AI214,Bengaluru,BLR,Singapore,SIN,2025-12-30 10:57,2025-12-30 19:15,498,8h18m,1,LHR,Economy,A321,503,False,False,20
+1012,IndiGo,6E662,Mumbai,BOM,London,LON,2025-10-17 06:46,2025-10-17 12:13,327,5h27m,0,,Business,B777,1595,False,False,30
+1013,IndiGo,6E223,Chennai,MAA,Doha,DOH,2025-10-25 07:39,2025-10-25 14:24,405,6h45m,0,,Economy,B777,421,True,True,20
+1014,Air India,AI980,Mumbai,BOM,Paris,PAR,2025-11-02 07:57,2025-11-02 15:52,475,7h55m,0,,Economy,B737,651,False,True,40
+1015,IndiGo,6E926,Mumbai,BOM,New York,NYC,2025-11-09 18:31,2025-11-10 00:46,375,6h15m,0,,Economy,A380,586,True,True,20
+1016,Lufthansa,LH919,Delhi,DEL,Singapore,SIN,2025-12-23 21:50,2025-12-24 05:28,458,7h38m,0,,Economy,B787,501,False,False,25
+1017,Singapore Airlines,SQ200,Delhi,DEL,Singapore,SIN,2025-10-06 03:52,2025-10-06 16:39,767,12h47m,2,"DOH,SIN",Business,B777,2481,False,False,40
+1018,Vistara,UK102,Delhi,DEL,London,LON,2025-11-08 03:44,2025-11-08 16:12,748,12h28m,2,"DXB,LHR",Economy,A380,687,True,False,25
+1019,Lufthansa,LH158,Hyderabad,HYD,Paris,PAR,2025-10-06 02:50,2025-10-06 11:40,530,8h50m,0,,Economy,A321,550,True,True,20
+1020,Emirates,EK683,Mumbai,BOM,Singapore,SIN,2025-10-25 03:43,2025-10-25 13:06,563,9h23m,0,,Economy,A350,591,True,True,30
+1021,Vistara,UK234,Mumbai,BOM,Dubai,DXB,2025-12-05 11:09,2025-12-05 20:48,579,9h39m,0,,Economy,A321,554,False,True,30
+1022,Emirates,EK350,Mumbai,BOM,Dubai,DXB,2025-11-06 03:03,2025-11-06 09:33,390,6h30m,0,,Economy,A320,580,False,False,20
+1023,Emirates,EK209,Mumbai,BOM,Dubai,DXB,2025-12-12 07:57,2025-12-12 17:44,587,9h47m,0,,Economy,A350,593,False,True,30
+1024,Air France,AF966,Hyderabad,HYD,Singapore,SIN,2025-10-06 04:22,2025-10-06 13:37,555,9h15m,1,LHR,Economy,B737,683,False,True,40
+1025,Air India,AI214,Chennai,MAA,Doha,DOH,2025-10-08 13:19,2025-10-09 06:31,1032,17h12m,2,"IST,DXB",Business,B737,3168,True,True,30
+1026,British Airways,BA782,Bengaluru,BLR,London,LON,2025-10-11 05:31,2025-10-11 15:04,573,9h33m,1,DOH,Economy,B777,573,True,False,20
+1027,Vistara,UK921,Bengaluru,BLR,New York,NYC,2025-12-05 06:59,2025-12-05 17:36,637,10h37m,1,DOH,Economy,A321,671,True,False,25
+1028,Air France,AF940,Chennai,MAA,Dubai,DXB,2025-12-17 11:17,2025-12-17 20:11,534,8h54m,0,,Economy,A350,577,True,False,30
+1029,Singapore Airlines,SQ439,Hyderabad,HYD,Singapore,SIN,2025-12-31 10:34,2025-12-31 17:26,412,6h52m,0,,Economy,A330,433,True,True,40
+1030,Lufthansa,LH546,Bengaluru,BLR,Istanbul,IST,2025-11-29 02:34,2025-11-29 11:28,534,8h54m,0,,Economy,B787,506,False,True,25
+1031,Emirates,EK780,Bengaluru,BLR,Singapore,SIN,2025-12-29 15:33,2025-12-29 23:12,459,7h39m,1,LHR,Economy,B787,539,False,True,30
+1032,Vistara,UK780,Mumbai,BOM,London,LON,2025-12-31 13:12,2025-12-31 21:14,482,8h02m,1,DOH,Economy,B787,611,True,False,30
+1033,Turkish Airlines,TK721,Chennai,MAA,New York,NYC,2025-12-03 19:34,2025-12-04 02:00,386,6h26m,0,,Economy,A380,595,True,True,20
+1034,Turkish Airlines,TK443,Bengaluru,BLR,Doha,DOH,2025-10-10 07:36,2025-10-10 21:32,836,13h56m,2,"SIN,LHR",Economy,B777,744,True,True,25
+1035,Vistara,UK744,Delhi,DEL,Singapore,SIN,2025-11-26 03:24,2025-11-26 13:05,581,9h41m,1,SIN,Economy,B737,704,False,True,20
+1036,Singapore Airlines,SQ575,Mumbai,BOM,London,LON,2025-10-06 03:01,2025-10-06 12:29,568,9h28m,0,,Economy,A380,698,False,True,30
+1037,Singapore Airlines,SQ536,Chennai,MAA,Doha,DOH,2025-12-20 21:21,2025-12-21 06:51,570,9h30m,0,,Economy,B777,693,False,True,40
+1038,IndiGo,6E179,Mumbai,BOM,Dubai,DXB,2025-12-09 12:40,2025-12-09 18:20,340,5h40m,0,,Business,A321,1478,True,True,40
+1039,British Airways,BA165,Mumbai,BOM,Istanbul,IST,2025-11-10 12:42,2025-11-10 18:05,323,5h23m,0,,Economy,B787,464,False,True,20
+1040,IndiGo,6E106,Hyderabad,HYD,Singapore,SIN,2025-12-31 18:44,2026-01-01 00:37,353,5h53m,0,,Economy,B777,509,True,False,40
+1041,Vistara,UK444,Chennai,MAA,Paris,PAR,2025-12-05 04:35,2025-12-05 17:16,761,12h41m,1,DXB,Business,A320,2525,False,True,20
+1042,IndiGo,6E286,Chennai,MAA,London,LON,2025-10-06 03:10,2025-10-06 09:08,358,5h58m,0,,Economy,B787,459,False,False,20
+1043,Singapore Airlines,SQ153,Chennai,MAA,Paris,PAR,2025-11-04 05:28,2025-11-04 12:41,433,7h13m,1,DOH,Business,B777,1665,False,True,25
+1044,Emirates,EK677,Chennai,MAA,Istanbul,IST,2025-10-22 09:53,2025-10-22 17:48,475,7h55m,1,LHR,Economy,A321,665,True,False,20
+1045,Turkish Airlines,TK793,Delhi,DEL,Dubai,DXB,2025-12-28 09:51,2025-12-28 14:30,279,4h39m,0,,Economy,B777,362,False,False,20
+1046,Air India,AI455,Hyderabad,HYD,New York,NYC,2025-11-21 23:23,2025-11-22 06:44,441,7h21m,1,IST,Economy,A320,551,False,True,40
+1047,Qatar Airways,QR545,Chennai,MAA,Istanbul,IST,2025-10-18 08:25,2025-10-18 19:13,648,10h48m,0,,Premium Economy,A380,1080,False,True,30
+1048,British Airways,BA950,Bengaluru,BLR,New York,NYC,2025-12-30 23:49,2025-12-31 06:50,421,7h01m,0,,Premium Economy,B787,805,True,False,30
+1049,British Airways,BA463,Mumbai,BOM,Singapore,SIN,2025-12-17 17:05,2025-12-17 23:16,371,6h11m,0,,Economy,B777,418,True,True,40
+1050,British Airways,BA807,Chennai,MAA,Doha,DOH,2025-11-16 11:22,2025-11-17 00:18,776,12h56m,1,LHR,Economy,B777,770,False,True,30
+1051,Singapore Airlines,SQ643,Bengaluru,BLR,Singapore,SIN,2025-11-03 15:00,2025-11-04 03:52,772,12h52m,2,"DXB,DOH",Economy,A380,733,False,False,25
+1052,Singapore Airlines,SQ880,Bengaluru,BLR,Paris,PAR,2025-12-07 06:11,2025-12-07 12:16,365,6h05m,0,,Economy,A330,418,True,False,25
+1053,Air France,AF114,Bengaluru,BLR,London,LON,2025-12-08 23:48,2025-12-09 08:24,516,8h36m,0,,Economy,B737,657,False,True,20
+1054,IndiGo,6E590,Hyderabad,HYD,Dubai,DXB,2025-11-13 00:22,2025-11-13 05:54,332,5h32m,0,,Business,A380,1453,True,False,40
+1055,Air India,AI255,Delhi,DEL,Doha,DOH,2025-10-15 17:39,2025-10-16 01:19,460,7h40m,0,,First,A321,3132,False,True,25
+1056,IndiGo,6E553,Hyderabad,HYD,Singapore,SIN,2025-10-30 02:52,2025-10-30 11:01,489,8h09m,0,,Economy,A320,632,False,True,25
+1057,Emirates,EK260,Mumbai,BOM,Dubai,DXB,2025-10-24 12:55,2025-10-24 18:25,330,5h30m,0,,Economy,A380,444,True,True,30
+1058,IndiGo,6E172,Bengaluru,BLR,Istanbul,IST,2025-12-06 23:43,2025-12-07 14:37,894,14h54m,2,"FRA,DOH",Premium Economy,B777,1331,True,True,25
+1059,Qatar Airways,QR173,Bengaluru,BLR,New York,NYC,2025-10-07 00:58,2025-10-07 10:59,601,10h01m,1,IST,Economy,A380,726,False,True,40
+1060,IndiGo,6E548,Hyderabad,HYD,Doha,DOH,2025-10-09 01:26,2025-10-09 10:37,551,9h11m,0,,Economy,A320,540,True,True,20
+1061,Air India,AI881,Bengaluru,BLR,Doha,DOH,2025-12-13 16:14,2025-12-13 22:19,365,6h05m,0,,Economy,B787,555,False,True,40
+1062,Lufthansa,LH428,Bengaluru,BLR,Singapore,SIN,2025-12-05 07:31,2025-12-05 17:47,616,10h16m,1,SIN,Economy,A330,729,False,True,20
+1063,Air France,AF431,Delhi,DEL,Dubai,DXB,2025-10-12 12:07,2025-10-12 19:37,450,7h30m,0,,Economy,A380,555,True,True,30
+1064,IndiGo,6E740,Hyderabad,HYD,New York,NYC,2025-11-13 04:01,2025-11-13 12:41,520,8h40m,0,,Economy,A330,608,False,False,20
+1065,Turkish Airlines,TK918,Delhi,DEL,Istanbul,IST,2025-10-24 11:36,2025-10-24 21:07,571,9h31m,0,,Economy,A321,587,True,False,20
+1066,Air France,AF621,Mumbai,BOM,Singapore,SIN,2025-12-08 17:43,2025-12-08 23:43,360,6h00m,0,,Economy,B737,488,True,True,25
+1067,Vistara,UK448,Delhi,DEL,Dubai,DXB,2025-12-30 22:57,2025-12-31 07:03,486,8h06m,0,,Economy,A380,512,False,True,40
+1068,Singapore Airlines,SQ881,Bengaluru,BLR,Dubai,DXB,2025-11-23 00:17,2025-11-23 05:11,294,4h54m,0,,First,B777,2472,False,True,40
+1069,IndiGo,6E822,Delhi,DEL,Dubai,DXB,2025-12-28 22:26,2025-12-29 06:59,513,8h33m,0,,Business,B737,1975,False,False,20
+1070,Singapore Airlines,SQ567,Chennai,MAA,Paris,PAR,2025-10-02 17:45,2025-10-03 03:24,579,9h39m,0,,Economy,A330,622,False,True,40
+1071,Lufthansa,LH972,Delhi,DEL,New York,NYC,2025-12-05 17:22,2025-12-06 02:12,530,8h50m,0,,Economy,A380,641,True,True,20
+1072,Air France,AF332,Mumbai,BOM,Istanbul,IST,2025-12-12 18:05,2025-12-13 01:56,471,7h51m,0,,Economy,A321,577,True,True,30
+1073,Lufthansa,LH915,Delhi,DEL,Paris,PAR,2025-10-06 16:46,2025-10-06 22:04,318,5h18m,0,,Economy,B787,506,False,True,25
+1074,Turkish Airlines,TK991,Mumbai,BOM,Paris,PAR,2025-11-07 09:23,2025-11-07 22:44,801,13h21m,1,DXB,Economy,A380,847,False,False,30
+1075,Singapore Airlines,SQ261,Chennai,MAA,Dubai,DXB,2025-10-08 10:06,2025-10-08 23:14,788,13h08m,2,"DOH,SIN",Economy,B787,851,False,False,30
+1076,British Airways,BA490,Chennai,MAA,Paris,PAR,2025-11-25 18:40,2025-11-25 23:42,302,5h02m,0,,Business,B787,1424,True,True,20
+1077,IndiGo,6E952,Hyderabad,HYD,Istanbul,IST,2025-12-28 00:50,2025-12-28 09:35,525,8h45m,1,DOH,Premium Economy,B777,992,True,True,30
+1078,Air India,AI416,Delhi,DEL,Istanbul,IST,2025-12-16 19:35,2025-12-17 00:21,286,4h46m,0,,Economy,A330,423,False,False,25
+1079,Singapore Airlines,SQ997,Mumbai,BOM,London,LON,2025-11-05 18:30,2025-11-06 03:21,531,8h51m,0,,Economy,A380,579,False,False,20
+1080,Qatar Airways,QR872,Chennai,MAA,Paris,PAR,2025-10-23 03:43,2025-10-23 15:35,712,11h52m,1,SIN,Economy,B787,627,False,True,20
+1081,Air France,AF698,Bengaluru,BLR,Istanbul,IST,2025-11-07 05:51,2025-11-07 16:39,648,10h48m,1,LHR,Economy,A380,588,False,True,30
+1082,Emirates,EK750,Mumbai,BOM,Istanbul,IST,2025-12-20 05:43,2025-12-20 17:10,687,11h27m,2,"DXB,FRA",Economy,B737,619,True,False,40
+1083,Qatar Airways,QR497,Mumbai,BOM,Doha,DOH,2025-11-14 07:03,2025-11-14 16:44,581,9h41m,1,LHR,Economy,B737,643,False,True,40
+1084,Air India,AI806,Chennai,MAA,Dubai,DXB,2025-11-06 05:23,2025-11-06 11:39,376,6h16m,0,,Economy,A350,539,False,False,20
+1085,British Airways,BA225,Chennai,MAA,Dubai,DXB,2025-12-22 14:03,2025-12-22 22:55,532,8h52m,0,,Economy,A320,516,False,True,25
+1086,Emirates,EK949,Hyderabad,HYD,London,LON,2025-12-14 12:56,2025-12-14 21:55,539,8h59m,0,,Economy,B737,661,True,False,25
+1087,Air France,AF917,Mumbai,BOM,Doha,DOH,2025-10-18 04:36,2025-10-18 12:58,502,8h22m,1,IST,Economy,B777,634,False,True,25
+1088,Vistara,UK638,Delhi,DEL,London,LON,2025-10-12 06:49,2025-10-12 17:05,616,10h16m,0,,Economy,A321,675,False,True,20
+1089,IndiGo,6E758,Hyderabad,HYD,Dubai,DXB,2025-10-04 06:35,2025-10-04 20:23,828,13h48m,2,"IST,LHR",Economy,A380,884,False,True,20
+1090,Qatar Airways,QR381,Mumbai,BOM,Paris,PAR,2025-11-30 20:45,2025-12-01 07:03,618,10h18m,0,,First,A330,3738,False,True,40
+1091,Emirates,EK973,Delhi,DEL,New York,NYC,2025-12-03 19:35,2025-12-04 09:23,828,13h48m,1,SIN,Economy,B777,807,False,False,40
+1092,Vistara,UK420,Delhi,DEL,Dubai,DXB,2025-12-04 19:48,2025-12-05 02:15,387,6h27m,0,,Business,A321,1576,True,True,40
+1093,Lufthansa,LH931,Delhi,DEL,Istanbul,IST,2025-10-13 21:11,2025-10-14 06:52,581,9h41m,0,,Economy,A321,642,False,True,40
+1094,Turkish Airlines,TK419,Delhi,DEL,Dubai,DXB,2025-11-04 09:23,2025-11-04 16:12,409,6h49m,0,,Economy,B777,449,False,True,30
+1095,Air France,AF687,Delhi,DEL,New York,NYC,2025-10-23 04:59,2025-10-23 13:48,529,8h49m,0,,Economy,A320,657,False,True,30
+1096,Air France,AF819,Delhi,DEL,London,LON,2025-12-14 06:32,2025-12-14 17:30,658,10h58m,2,"DOH,DXB",Economy,B737,732,False,False,20
+1097,Singapore Airlines,SQ320,Delhi,DEL,Istanbul,IST,2025-11-06 18:35,2025-11-06 23:52,317,5h17m,0,,Economy,A350,559,False,True,20
+1098,Qatar Airways,QR872,Delhi,DEL,London,LON,2025-11-30 05:40,2025-11-30 15:45,605,10h05m,1,DOH,Economy,A380,708,False,False,30
+1099,Lufthansa,LH540,Hyderabad,HYD,Paris,PAR,2025-10-12 00:23,2025-10-12 10:04,581,9h41m,1,DXB,Economy,A320,593,False,True,20
+1100,British Airways,BA885,Mumbai,BOM,Dubai,DXB,2025-10-14 13:46,2025-10-14 21:31,465,7h45m,0,,Economy,B787,504,True,False,25
+1101,Lufthansa,LH173,Hyderabad,HYD,Doha,DOH,2025-11-08 19:14,2025-11-09 06:07,653,10h53m,1,SIN,Economy,A321,665,False,False,40
+1102,Vistara,UK121,Bengaluru,BLR,Paris,PAR,2025-11-01 18:45,2025-11-02 05:10,625,10h25m,1,LHR,Business,A321,2219,True,True,40
+1103,Emirates,EK505,Chennai,MAA,Doha,DOH,2025-12-24 18:28,2025-12-25 02:36,488,8h08m,1,IST,Premium Economy,A321,920,False,True,25
+1104,Qatar Airways,QR341,Bengaluru,BLR,Istanbul,IST,2025-10-11 05:33,2025-10-11 12:20,407,6h47m,0,,Economy,A321,466,False,False,40
+1105,Turkish Airlines,TK559,Hyderabad,HYD,New York,NYC,2025-12-06 09:09,2025-12-06 21:51,762,12h42m,1,IST,Economy,A380,675,False,False,30
+1106,Lufthansa,LH619,Hyderabad,HYD,Paris,PAR,2025-10-08 10:52,2025-10-08 15:59,307,5h07m,0,,Economy,A330,373,False,True,40
+1107,Singapore Airlines,SQ910,Chennai,MAA,Doha,DOH,2025-12-11 23:48,2025-12-12 07:41,473,7h53m,0,,Economy,A380,593,True,True,40
+1108,Lufthansa,LH831,Delhi,DEL,New York,NYC,2025-10-09 10:30,2025-10-09 21:11,641,10h41m,1,IST,Economy,A380,711,False,True,25
+1109,Vistara,UK518,Bengaluru,BLR,Dubai,DXB,2025-12-15 10:38,2025-12-15 18:41,483,8h03m,1,IST,Economy,A321,556,True,True,40
+1110,Turkish Airlines,TK994,Bengaluru,BLR,Istanbul,IST,2025-10-15 20:23,2025-10-16 02:07,344,5h44m,0,,Economy,B787,412,False,True,20
+1111,Vistara,UK758,Bengaluru,BLR,Doha,DOH,2025-12-17 02:42,2025-12-17 11:37,535,8h55m,1,IST,Economy,B787,636,False,True,30
+1112,Lufthansa,LH884,Mumbai,BOM,London,LON,2025-11-17 11:05,2025-11-17 16:54,349,5h49m,0,,Economy,A321,511,False,True,20
+1113,Turkish Airlines,TK234,Bengaluru,BLR,New York,NYC,2025-11-28 05:41,2025-11-28 11:39,358,5h58m,0,,Premium Economy,B737,835,False,True,40
+1114,British Airways,BA554,Bengaluru,BLR,Istanbul,IST,2025-11-29 12:47,2025-11-29 21:40,533,8h53m,1,LHR,Economy,A330,705,False,True,30
+1115,Air France,AF896,Chennai,MAA,Singapore,SIN,2025-11-07 07:49,2025-11-07 16:44,535,8h55m,0,,Premium Economy,B737,904,True,True,40
+1116,Emirates,EK828,Bengaluru,BLR,Doha,DOH,2025-12-22 09:04,2025-12-22 20:26,682,11h22m,1,DXB,Premium Economy,A330,1112,False,True,40
+1117,IndiGo,6E457,Mumbai,BOM,New York,NYC,2025-12-30 14:09,2025-12-30 21:43,454,7h34m,0,,Economy,B787,472,False,True,20
+1118,Lufthansa,LH910,Bengaluru,BLR,Paris,PAR,2025-10-15 10:19,2025-10-15 17:18,419,6h59m,0,,Business,A380,1741,False,True,20
+1119,British Airways,BA955,Delhi,DEL,Dubai,DXB,2025-10-15 18:24,2025-10-16 11:18,1014,16h54m,2,"DOH,SIN",Economy,A330,886,False,True,20
+1120,Emirates,EK213,Hyderabad,HYD,Singapore,SIN,2025-12-21 11:37,2025-12-21 17:27,350,5h50m,0,,Economy,B777,566,True,False,40
+1121,Lufthansa,LH346,Delhi,DEL,Doha,DOH,2025-11-25 15:44,2025-11-25 21:21,337,5h37m,0,,Business,A321,1570,False,True,20
+1122,IndiGo,6E144,Chennai,MAA,New York,NYC,2025-12-01 23:13,2025-12-02 08:53,580,9h40m,2,"LHR,IST",Economy,A321,624,True,True,20
+1123,Lufthansa,LH659,Mumbai,BOM,Paris,PAR,2025-11-03 02:52,2025-11-03 15:19,747,12h27m,1,DXB,Economy,B737,682,True,True,40
+1124,Air India,AI910,Bengaluru,BLR,London,LON,2025-10-20 14:47,2025-10-20 22:22,455,7h35m,0,,Economy,A380,517,True,True,25
+1125,Air India,AI986,Bengaluru,BLR,Dubai,DXB,2025-12-03 21:57,2025-12-04 03:52,355,5h55m,0,,Business,A380,1576,False,True,40
+1126,Singapore Airlines,SQ373,Chennai,MAA,Dubai,DXB,2025-12-18 00:48,2025-12-18 10:03,555,9h15m,1,DXB,Economy,B737,659,False,False,20
+1127,Air France,AF413,Bengaluru,BLR,Istanbul,IST,2025-11-13 13:03,2025-11-14 01:13,730,12h10m,1,IST,Economy,A380,646,False,False,40
+1128,Vistara,UK472,Delhi,DEL,Paris,PAR,2025-11-20 01:34,2025-11-20 11:17,583,9h43m,1,IST,Economy,A380,546,True,True,25
+1129,Turkish Airlines,TK133,Bengaluru,BLR,Singapore,SIN,2025-11-28 23:58,2025-11-29 09:19,561,9h21m,1,SIN,Economy,A321,670,True,True,30
+1130,Air France,AF355,Bengaluru,BLR,Istanbul,IST,2025-10-12 06:21,2025-10-12 17:34,673,11h13m,1,DOH,Economy,A321,665,False,True,40
+1131,IndiGo,6E304,Hyderabad,HYD,Dubai,DXB,2025-10-13 03:45,2025-10-13 13:02,557,9h17m,1,DXB,Business,A380,1971,False,False,30
+1132,Air France,AF407,Hyderabad,HYD,Doha,DOH,2025-12-22 21:49,2025-12-23 06:19,510,8h30m,1,DXB,Economy,A321,541,True,True,40
+1133,Turkish Airlines,TK477,Bengaluru,BLR,Doha,DOH,2025-11-15 15:08,2025-11-16 04:02,774,12h54m,2,"LHR,SIN",Business,A321,2535,False,True,40
+1134,Turkish Airlines,TK175,Chennai,MAA,New York,NYC,2025-10-13 10:01,2025-10-13 19:25,564,9h24m,1,DOH,Economy,A350,558,False,True,25
+1135,Air India,AI951,Chennai,MAA,Doha,DOH,2025-10-13 07:18,2025-10-13 16:08,530,8h50m,0,,Economy,B777,591,False,False,20
+1136,Singapore Airlines,SQ381,Bengaluru,BLR,London,LON,2025-10-13 09:40,2025-10-13 19:21,581,9h41m,0,,Economy,B737,688,False,True,25
+1137,Turkish Airlines,TK445,Hyderabad,HYD,Istanbul,IST,2025-12-22 01:14,2025-12-22 09:54,520,8h40m,0,,Economy,A330,662,True,True,40
+1138,Air India,AI609,Hyderabad,HYD,Istanbul,IST,2025-12-26 13:30,2025-12-27 00:01,631,10h31m,0,,Economy,B787,646,False,True,20
+1139,Vistara,UK595,Mumbai,BOM,Singapore,SIN,2025-11-15 08:13,2025-11-15 14:23,370,6h10m,0,,Business,A350,1700,False,False,25
+1140,Singapore Airlines,SQ208,Bengaluru,BLR,Doha,DOH,2025-11-01 05:35,2025-11-01 12:02,387,6h27m,0,,Economy,A321,420,False,False,40
+1141,Qatar Airways,QR933,Mumbai,BOM,New York,NYC,2025-11-02 00:58,2025-11-02 12:06,668,11h08m,1,DXB,Economy,A380,722,False,False,20
+1142,IndiGo,6E346,Chennai,MAA,Doha,DOH,2025-10-22 03:19,2025-10-22 12:25,546,9h06m,0,,Economy,A380,587,False,True,20
+1143,Air France,AF844,Chennai,MAA,London,LON,2025-11-05 18:19,2025-11-06 02:40,501,8h21m,0,,Economy,B777,576,False,False,20
+1144,IndiGo,6E882,Chennai,MAA,Doha,DOH,2025-11-23 15:15,2025-11-23 22:31,436,7h16m,1,DOH,Business,B787,1762,False,True,30
+1145,Singapore Airlines,SQ511,Mumbai,BOM,Doha,DOH,2025-11-18 19:15,2025-11-19 02:27,432,7h12m,0,,Premium Economy,A380,768,False,True,25
+1146,Lufthansa,LH266,Bengaluru,BLR,Doha,DOH,2025-11-08 09:39,2025-11-08 22:10,751,12h31m,1,DXB,Economy,A380,831,False,False,40
+1147,Emirates,EK526,Bengaluru,BLR,Dubai,DXB,2025-11-26 22:07,2025-11-27 05:59,472,7h52m,1,DOH,Economy,B777,648,True,True,40
+1148,Turkish Airlines,TK893,Hyderabad,HYD,Istanbul,IST,2025-12-21 22:03,2025-12-22 02:37,274,4h34m,0,,Economy,A321,380,True,False,30
+1149,Vistara,UK807,Chennai,MAA,London,LON,2025-10-21 01:06,2025-10-21 05:43,277,4h37m,0,,Economy,B777,477,False,True,40
+1150,Lufthansa,LH277,Hyderabad,HYD,Singapore,SIN,2025-11-14 21:05,2025-11-15 07:01,596,9h56m,0,,Premium Economy,A330,1061,False,True,25
+1151,Air France,AF330,Bengaluru,BLR,Doha,DOH,2025-12-31 15:49,2026-01-01 00:40,531,8h51m,1,IST,Economy,A350,626,False,True,30
+1152,Singapore Airlines,SQ488,Delhi,DEL,Doha,DOH,2025-12-27 05:16,2025-12-27 12:30,434,7h14m,1,SIN,Economy,A321,527,False,True,30
+1153,Singapore Airlines,SQ377,Mumbai,BOM,London,LON,2025-12-30 20:06,2025-12-31 06:54,648,10h48m,1,DOH,Economy,B777,644,True,True,25
+1154,Vistara,UK438,Delhi,DEL,Paris,PAR,2025-12-09 21:33,2025-12-10 02:03,270,4h30m,0,,Business,B737,1384,False,False,40
+1155,Air France,AF428,Mumbai,BOM,New York,NYC,2025-10-28 23:03,2025-10-29 09:56,653,10h53m,0,,Economy,A320,629,False,True,20
+1156,IndiGo,6E290,Chennai,MAA,New York,NYC,2025-12-31 04:27,2025-12-31 19:29,902,15h02m,2,"DOH,LHR",Economy,A321,836,False,False,40
+1157,British Airways,BA928,Chennai,MAA,Dubai,DXB,2025-10-12 04:29,2025-10-12 10:51,382,6h22m,0,,Economy,B737,407,False,False,30
+1158,British Airways,BA279,Hyderabad,HYD,Istanbul,IST,2025-11-29 13:37,2025-11-30 01:14,697,11h37m,1,DOH,Economy,A321,716,False,True,25
+1159,British Airways,BA106,Chennai,MAA,Dubai,DXB,2025-10-26 13:40,2025-10-26 18:52,312,5h12m,0,,Economy,A320,424,False,False,25
+1160,Emirates,EK576,Delhi,DEL,Istanbul,IST,2025-10-31 00:54,2025-10-31 07:54,420,7h00m,0,,Premium Economy,A321,881,False,False,25
+1161,IndiGo,6E256,Mumbai,BOM,London,LON,2025-11-14 10:10,2025-11-15 02:43,993,16h33m,2,"DOH,LHR",Economy,A380,1005,False,True,25
+1162,IndiGo,6E640,Delhi,DEL,Doha,DOH,2025-12-08 13:53,2025-12-08 19:07,314,5h14m,0,,Economy,B777,505,False,True,25
+1163,Singapore Airlines,SQ552,Bengaluru,BLR,New York,NYC,2025-10-12 12:51,2025-10-12 23:23,632,10h32m,0,,Economy,A380,585,False,True,40
+1164,Air India,AI672,Chennai,MAA,Doha,DOH,2025-11-15 03:25,2025-11-15 15:20,715,11h55m,1,DXB,Economy,A320,816,True,True,20
+1165,Emirates,EK654,Chennai,MAA,Dubai,DXB,2025-10-07 02:24,2025-10-07 15:58,814,13h34m,2,"IST,SIN",Economy,B737,888,True,True,40
+1166,Vistara,UK484,Chennai,MAA,New York,NYC,2025-10-09 00:59,2025-10-09 18:22,1043,17h23m,2,"LHR,DOH",Economy,A350,875,True,True,40
+1167,Air India,AI874,Mumbai,BOM,New York,NYC,2025-10-03 10:58,2025-10-03 16:52,354,5h54m,0,,Economy,B777,449,False,False,25
+1168,Emirates,EK132,Bengaluru,BLR,London,LON,2025-12-18 20:13,2025-12-19 06:13,600,10h00m,0,,Economy,A321,702,True,False,20
+1169,Air India,AI511,Mumbai,BOM,Istanbul,IST,2025-11-12 20:51,2025-11-13 02:38,347,5h47m,0,,Economy,A330,440,False,True,30
+1170,Lufthansa,LH342,Hyderabad,HYD,Doha,DOH,2025-10-30 13:09,2025-10-31 02:33,804,13h24m,2,"FRA,SIN",Economy,A330,701,False,True,25
+1171,Air India,AI452,Hyderabad,HYD,Singapore,SIN,2025-12-31 16:03,2026-01-01 05:57,834,13h54m,1,LHR,Economy,B787,744,False,False,25
+1172,British Airways,BA407,Chennai,MAA,London,LON,2025-12-23 12:12,2025-12-23 21:49,577,9h37m,0,,Economy,B787,676,False,True,40
+1173,British Airways,BA438,Mumbai,BOM,Dubai,DXB,2025-12-03 00:56,2025-12-03 13:45,769,12h49m,2,"DXB,DOH",Economy,B777,675,False,False,20
+1174,Singapore Airlines,SQ322,Hyderabad,HYD,Istanbul,IST,2025-11-16 19:04,2025-11-17 04:07,543,9h03m,1,SIN,Business,A320,1971,True,True,20
+1175,Turkish Airlines,TK820,Mumbai,BOM,Istanbul,IST,2025-10-21 02:33,2025-10-21 15:26,773,12h53m,2,"IST,FRA",Premium Economy,B787,1213,False,True,30
+1176,IndiGo,6E577,Bengaluru,BLR,Doha,DOH,2025-10-10 19:46,2025-10-11 10:56,910,15h10m,2,"FRA,DOH",Business,A350,2853,False,True,25
+1177,Singapore Airlines,SQ698,Delhi,DEL,Dubai,DXB,2025-11-26 11:30,2025-11-26 21:25,595,9h55m,0,,Economy,B787,691,True,False,30
+1178,IndiGo,6E840,Bengaluru,BLR,New York,NYC,2025-12-02 13:15,2025-12-02 23:30,615,10h15m,0,,Economy,A380,607,False,True,20
+1179,Emirates,EK937,Hyderabad,HYD,Paris,PAR,2025-12-05 03:03,2025-12-05 13:05,602,10h02m,1,DOH,Business,B777,2071,False,True,20
+1180,Lufthansa,LH161,Hyderabad,HYD,Singapore,SIN,2025-11-30 05:39,2025-11-30 20:06,867,14h27m,1,DXB,Economy,A320,864,False,False,20
+1181,Air France,AF648,Hyderabad,HYD,Istanbul,IST,2025-10-29 02:01,2025-10-29 08:53,412,6h52m,0,,Economy,A321,558,True,True,25
+1182,Air France,AF934,Hyderabad,HYD,Doha,DOH,2025-11-04 15:54,2025-11-04 23:31,457,7h37m,1,IST,Business,A380,1860,True,True,25
+1183,Air India,AI195,Delhi,DEL,Istanbul,IST,2025-11-09 14:22,2025-11-09 18:59,277,4h37m,0,,Economy,B737,355,False,False,30
+1184,Emirates,EK640,Hyderabad,HYD,New York,NYC,2025-12-29 11:46,2025-12-29 19:16,450,7h30m,0,,Economy,A321,625,False,True,20
+1185,Lufthansa,LH116,Mumbai,BOM,New York,NYC,2025-10-21 08:42,2025-10-21 17:21,519,8h39m,0,,Economy,B777,641,False,True,30
+1186,Qatar Airways,QR909,Chennai,MAA,New York,NYC,2025-12-07 04:12,2025-12-07 13:48,576,9h36m,0,,Economy,B777,553,False,True,40
+1187,Air France,AF902,Bengaluru,BLR,Paris,PAR,2025-11-13 23:51,2025-11-14 05:09,318,5h18m,0,,Economy,B787,383,False,False,25
+1188,Air France,AF257,Delhi,DEL,Paris,PAR,2025-11-07 03:27,2025-11-07 15:55,748,12h28m,1,IST,Economy,A321,671,True,False,40
+1189,Qatar Airways,QR189,Bengaluru,BLR,Paris,PAR,2025-10-19 10:39,2025-10-19 16:14,335,5h35m,0,,Economy,A320,395,False,True,20
+1190,Lufthansa,LH984,Hyderabad,HYD,Doha,DOH,2025-11-07 15:40,2025-11-07 22:20,400,6h40m,0,,Economy,B777,562,False,True,40
+1191,Air France,AF408,Mumbai,BOM,London,LON,2025-10-27 07:25,2025-10-27 12:50,325,5h25m,0,,Economy,A330,489,True,False,30
+1192,IndiGo,6E708,Mumbai,BOM,Istanbul,IST,2025-11-30 02:56,2025-11-30 09:04,368,6h08m,0,,Economy,B787,480,False,False,30
+1193,Vistara,UK935,Chennai,MAA,Dubai,DXB,2025-12-20 04:58,2025-12-20 15:10,612,10h12m,1,IST,Economy,B777,680,False,True,40
+1194,IndiGo,6E689,Bengaluru,BLR,Istanbul,IST,2025-12-16 04:07,2025-12-16 10:27,380,6h20m,0,,Economy,B777,554,False,True,20
+1195,British Airways,BA548,Chennai,MAA,Istanbul,IST,2025-12-17 16:44,2025-12-18 00:23,459,7h39m,1,DOH,Economy,B737,618,False,True,30
+1196,Vistara,UK175,Chennai,MAA,New York,NYC,2025-11-13 20:24,2025-11-14 06:02,578,9h38m,0,,Economy,B787,674,True,False,20
+1197,British Airways,BA773,Delhi,DEL,New York,NYC,2025-12-04 18:50,2025-12-05 01:02,372,6h12m,0,,First,B787,2830,False,False,20
+1198,Air France,AF327,Delhi,DEL,Paris,PAR,2025-11-19 19:57,2025-11-20 06:55,658,10h58m,0,,Economy,A380,683,False,False,25
+1199,IndiGo,6E207,Bengaluru,BLR,Paris,PAR,2025-10-29 22:24,2025-10-30 06:50,506,8h26m,2,"DOH,LHR",Business,B737,1919,False,False,40
+1200,IndiGo,6E199,Chennai,MAA,Dubai,DXB,2025-11-12 19:00,2025-11-13 07:29,749,12h29m,1,DOH,Economy,A321,654,False,True,20
+1201,Qatar Airways,QR665,Mumbai,BOM,Doha,DOH,2025-10-16 19:08,2025-10-17 00:37,329,5h29m,0,,Premium Economy,B737,667,False,True,40
+1202,Turkish Airlines,TK302,Chennai,MAA,Paris,PAR,2025-11-13 21:35,2025-11-14 07:35,600,10h00m,0,,Economy,A330,742,False,True,20
+1203,Lufthansa,LH433,Hyderabad,HYD,London,LON,2025-10-20 09:12,2025-10-20 14:49,337,5h37m,0,,Business,A350,1588,False,True,40
+1204,Lufthansa,LH460,Hyderabad,HYD,Paris,PAR,2025-12-22 08:11,2025-12-22 16:45,514,8h34m,1,DXB,Economy,B737,572,True,True,30
+1205,Qatar Airways,QR623,Mumbai,BOM,Dubai,DXB,2025-11-07 23:11,2025-11-08 04:30,319,5h19m,0,,Economy,A380,524,False,True,25
+1206,IndiGo,6E395,Hyderabad,HYD,London,LON,2025-10-14 20:54,2025-10-15 03:43,409,6h49m,0,,Economy,A350,424,False,True,25
+1207,Singapore Airlines,SQ768,Chennai,MAA,Doha,DOH,2025-11-18 07:21,2025-11-18 16:37,556,9h16m,1,DOH,Business,A380,1989,True,True,20
+1208,Air France,AF330,Bengaluru,BLR,Paris,PAR,2025-11-22 10:43,2025-11-22 16:55,372,6h12m,0,,Economy,A380,538,False,True,20
+1209,Singapore Airlines,SQ943,Bengaluru,BLR,New York,NYC,2025-11-05 20:50,2025-11-06 07:56,666,11h06m,1,IST,Economy,B787,620,False,True,25
+1210,Air France,AF456,Delhi,DEL,Singapore,SIN,2025-12-23 23:04,2025-12-24 07:04,480,8h00m,0,,Economy,A350,651,False,True,40
+1211,Qatar Airways,QR903,Mumbai,BOM,Doha,DOH,2025-10-21 07:27,2025-10-21 16:09,522,8h42m,0,,Economy,A330,650,False,True,30
+1212,Turkish Airlines,TK373,Bengaluru,BLR,Dubai,DXB,2025-12-23 13:19,2025-12-24 01:54,755,12h35m,2,"FRA,DOH",Business,B787,2426,False,True,25
+1213,Lufthansa,LH948,Mumbai,BOM,London,LON,2025-10-25 06:50,2025-10-25 18:32,702,11h42m,1,DXB,Economy,A330,778,False,False,40
+1214,Singapore Airlines,SQ867,Delhi,DEL,Singapore,SIN,2025-10-28 06:18,2025-10-28 22:54,996,16h36m,2,"FRA,SIN",Business,A350,3122,True,True,20
+1215,Emirates,EK914,Bengaluru,BLR,New York,NYC,2025-11-22 03:17,2025-11-22 08:14,297,4h57m,0,,Economy,A350,420,False,True,25
+1216,IndiGo,6E907,Hyderabad,HYD,New York,NYC,2025-11-03 14:58,2025-11-04 02:21,683,11h23m,1,SIN,Economy,A380,609,True,True,40
+1217,British Airways,BA805,Delhi,DEL,Singapore,SIN,2025-12-28 13:04,2025-12-28 21:41,517,8h37m,1,DXB,Business,A330,1879,False,False,30
+1218,Qatar Airways,QR153,Bengaluru,BLR,Istanbul,IST,2025-11-08 17:32,2025-11-09 03:56,624,10h24m,0,,Economy,A321,566,True,False,20
+1219,British Airways,BA631,Mumbai,BOM,Doha,DOH,2025-12-06 06:28,2025-12-06 11:13,285,4h45m,0,,First,B787,2467,True,False,20
+1220,Emirates,EK848,Mumbai,BOM,Singapore,SIN,2025-12-18 12:00,2025-12-18 19:08,428,7h08m,0,,Economy,B737,599,False,True,20
+1221,Air India,AI724,Hyderabad,HYD,Doha,DOH,2025-12-03 08:39,2025-12-03 15:29,410,6h50m,0,,Economy,B787,580,False,False,25
+1222,Qatar Airways,QR870,Delhi,DEL,Paris,PAR,2025-10-13 04:58,2025-10-13 17:21,743,12h23m,1,DOH,Economy,B737,708,False,True,20
+1223,Turkish Airlines,TK838,Hyderabad,HYD,Doha,DOH,2025-11-29 05:47,2025-11-29 13:47,480,8h00m,1,SIN,Business,B777,1902,False,True,25
+1224,Air India,AI902,Bengaluru,BLR,Istanbul,IST,2025-12-27 10:17,2025-12-28 01:48,931,15h31m,2,"IST,FRA",Economy,A380,933,False,True,20
+1225,Turkish Airlines,TK530,Mumbai,BOM,Singapore,SIN,2025-11-05 17:28,2025-11-06 05:37,729,12h09m,1,DXB,Economy,A321,639,False,True,20
+1226,Air France,AF743,Chennai,MAA,Doha,DOH,2025-12-09 10:32,2025-12-09 23:49,797,13h17m,1,LHR,Economy,B737,752,True,False,20
+1227,Qatar Airways,QR649,Mumbai,BOM,New York,NYC,2025-11-01 23:23,2025-11-02 04:32,309,5h09m,0,,Economy,B777,370,True,True,40
+1228,Turkish Airlines,TK723,Delhi,DEL,Singapore,SIN,2025-10-06 14:13,2025-10-06 21:42,449,7h29m,1,IST,Economy,B737,628,True,True,40
+1229,Air France,AF270,Hyderabad,HYD,Doha,DOH,2025-11-06 08:31,2025-11-06 16:54,503,8h23m,1,IST,Premium Economy,A320,891,False,False,20
+1230,Emirates,EK608,Hyderabad,HYD,Istanbul,IST,2025-11-14 10:41,2025-11-14 20:23,582,9h42m,0,,Economy,B737,603,True,True,20
+1231,Singapore Airlines,SQ102,Mumbai,BOM,Istanbul,IST,2025-10-05 12:36,2025-10-05 22:43,607,10h07m,1,DOH,Economy,B787,592,True,True,40
+1232,Vistara,UK837,Bengaluru,BLR,London,LON,2025-11-01 07:30,2025-11-01 17:13,583,9h43m,1,SIN,Economy,A320,583,True,True,20
+1233,Air France,AF892,Delhi,DEL,Singapore,SIN,2025-12-22 06:38,2025-12-22 12:36,358,5h58m,0,,Economy,B777,462,False,False,25
+1234,Turkish Airlines,TK605,Chennai,MAA,Dubai,DXB,2025-12-15 06:19,2025-12-15 14:20,481,8h01m,0,,Economy,B787,476,True,True,30
+1235,Air India,AI877,Delhi,DEL,Dubai,DXB,2025-12-04 01:37,2025-12-04 09:08,451,7h31m,1,IST,Economy,B777,557,False,True,25
+1236,British Airways,BA965,Delhi,DEL,Paris,PAR,2025-11-20 17:07,2025-11-21 01:40,513,8h33m,1,SIN,Business,A321,1995,True,True,25
+1237,Turkish Airlines,TK163,Delhi,DEL,Doha,DOH,2025-11-12 11:35,2025-11-13 02:42,907,15h07m,2,"IST,SIN",Economy,A350,854,False,True,30
+1238,Emirates,EK307,Bengaluru,BLR,London,LON,2025-10-14 11:09,2025-10-14 20:55,586,9h46m,1,LHR,Economy,A380,659,False,False,20
+1239,British Airways,BA562,Bengaluru,BLR,New York,NYC,2025-10-31 04:24,2025-10-31 09:05,281,4h41m,0,,Economy,A330,517,False,True,20
+1240,Lufthansa,LH251,Mumbai,BOM,New York,NYC,2025-10-10 02:32,2025-10-10 12:52,620,10h20m,0,,Economy,A330,629,True,True,40
+1241,Singapore Airlines,SQ355,Chennai,MAA,Doha,DOH,2025-10-10 10:43,2025-10-10 15:28,285,4h45m,0,,Economy,B777,373,True,False,30
+1242,Turkish Airlines,TK365,Delhi,DEL,Doha,DOH,2025-12-29 07:45,2025-12-29 15:40,475,7h55m,0,,Business,A380,1790,True,False,20
+1243,Air India,AI272,Delhi,DEL,Singapore,SIN,2025-12-29 23:22,2025-12-30 08:55,573,9h33m,0,,Economy,B787,576,False,True,25
+1244,IndiGo,6E252,Bengaluru,BLR,Dubai,DXB,2025-10-04 14:44,2025-10-05 03:08,744,12h24m,1,IST,Economy,B787,786,False,True,20
+1245,Vistara,UK304,Chennai,MAA,London,LON,2025-12-02 15:29,2025-12-02 23:01,452,7h32m,0,,First,A350,3080,False,False,30
+1246,Lufthansa,LH497,Hyderabad,HYD,Doha,DOH,2025-10-27 12:09,2025-10-27 17:42,333,5h33m,0,,Business,A330,1441,False,True,30
+1247,Qatar Airways,QR202,Hyderabad,HYD,London,LON,2025-10-25 07:32,2025-10-25 17:09,577,9h37m,0,,Premium Economy,B777,1032,False,False,25
+1248,Turkish Airlines,TK425,Mumbai,BOM,London,LON,2025-12-18 12:36,2025-12-19 01:13,757,12h37m,1,DOH,Economy,B737,798,True,False,30
+1249,Emirates,EK157,Chennai,MAA,Paris,PAR,2025-10-23 20:03,2025-10-24 05:34,571,9h31m,0,,Economy,B777,563,False,True,25
+1250,Air India,AI251,Bengaluru,BLR,Paris,PAR,2025-11-27 04:53,2025-11-27 19:26,873,14h33m,2,"LHR,DXB",Business,A321,2782,False,True,40
+1251,Lufthansa,LH239,Bengaluru,BLR,Dubai,DXB,2025-10-16 13:00,2025-10-17 07:01,1081,18h01m,2,"SIN,IST",Economy,A350,927,False,True,25
+1252,Qatar Airways,QR846,Bengaluru,BLR,London,LON,2025-10-01 10:11,2025-10-02 03:13,1022,17h02m,2,"SIN,DOH",Economy,A350,987,True,True,20
+1253,Emirates,EK343,Bengaluru,BLR,Istanbul,IST,2025-11-03 22:07,2025-11-04 04:37,390,6h30m,0,,Economy,A350,524,True,False,25
+1254,Emirates,EK458,Mumbai,BOM,Istanbul,IST,2025-10-26 04:03,2025-10-26 11:39,456,7h36m,0,,Economy,B787,496,False,False,40
+1255,Vistara,UK203,Bengaluru,BLR,Doha,DOH,2025-12-20 17:15,2025-12-21 03:05,590,9h50m,1,IST,Premium Economy,B777,940,False,True,20
+1256,Air France,AF207,Delhi,DEL,Dubai,DXB,2025-10-08 10:53,2025-10-08 16:13,320,5h20m,0,,Economy,A321,449,False,True,40
+1257,Qatar Airways,QR721,Delhi,DEL,Singapore,SIN,2025-12-26 15:16,2025-12-26 20:28,312,5h12m,0,,Economy,B777,462,False,True,30
+1258,British Airways,BA198,Bengaluru,BLR,Dubai,DXB,2025-10-06 01:39,2025-10-06 06:28,289,4h49m,0,,Economy,A320,451,True,False,40
+1259,Air India,AI311,Mumbai,BOM,Paris,PAR,2025-10-17 20:04,2025-10-18 06:34,630,10h30m,0,,Business,A330,2320,False,False,40
+1260,Singapore Airlines,SQ496,Bengaluru,BLR,Paris,PAR,2025-10-19 04:48,2025-10-19 13:15,507,8h27m,1,IST,Economy,A330,600,False,False,25
+1261,Qatar Airways,QR870,Hyderabad,HYD,Paris,PAR,2025-12-07 20:53,2025-12-08 07:32,639,10h39m,0,,Economy,B777,717,True,False,40
+1262,IndiGo,6E686,Hyderabad,HYD,Istanbul,IST,2025-12-25 20:24,2025-12-26 02:44,380,6h20m,0,,Business,A320,1664,False,True,25
+1263,IndiGo,6E277,Delhi,DEL,New York,NYC,2025-10-17 11:31,2025-10-17 19:08,457,7h37m,1,IST,Economy,B787,505,False,True,30
+1264,Vistara,UK669,Delhi,DEL,Paris,PAR,2025-11-08 19:54,2025-11-09 05:30,576,9h36m,0,,Economy,A320,713,False,True,40
+1265,Qatar Airways,QR251,Delhi,DEL,Singapore,SIN,2025-11-25 06:15,2025-11-25 14:58,523,8h43m,0,,Economy,A321,571,False,False,40
+1266,IndiGo,6E685,Bengaluru,BLR,Singapore,SIN,2025-11-29 08:59,2025-11-29 14:20,321,5h21m,0,,Economy,B787,373,False,False,25
+1267,IndiGo,6E375,Delhi,DEL,Istanbul,IST,2025-12-27 08:14,2025-12-27 13:53,339,5h39m,0,,Economy,A380,554,False,True,25
+1268,IndiGo,6E892,Mumbai,BOM,Dubai,DXB,2025-12-20 10:18,2025-12-20 16:35,377,6h17m,0,,Economy,B777,514,True,False,40
+1269,Lufthansa,LH940,Hyderabad,HYD,New York,NYC,2025-10-06 16:58,2025-10-07 03:53,655,10h55m,1,DOH,Economy,B787,620,False,True,20
+1270,British Airways,BA957,Mumbai,BOM,New York,NYC,2025-10-06 20:16,2025-10-07 02:32,376,6h16m,0,,Economy,A330,494,False,True,40
+1271,Air India,AI347,Delhi,DEL,Istanbul,IST,2025-11-06 09:54,2025-11-06 15:24,330,5h30m,0,,Economy,A350,458,True,False,20
+1272,Vistara,UK150,Bengaluru,BLR,Paris,PAR,2025-10-17 01:36,2025-10-17 09:34,478,7h58m,0,,Economy,B777,536,False,False,20
+1273,Qatar Airways,QR762,Delhi,DEL,Singapore,SIN,2025-10-18 01:35,2025-10-18 13:04,689,11h29m,1,SIN,Economy,A330,791,False,True,30
+1274,Lufthansa,LH570,Chennai,MAA,New York,NYC,2025-10-25 17:11,2025-10-26 00:00,409,6h49m,0,,Economy,A321,423,False,True,30
+1275,Turkish Airlines,TK723,Hyderabad,HYD,Istanbul,IST,2025-10-28 16:41,2025-10-29 01:22,521,8h41m,1,IST,Economy,A330,660,False,False,30
+1276,Singapore Airlines,SQ883,Mumbai,BOM,London,LON,2025-10-24 13:56,2025-10-25 01:03,667,11h07m,1,IST,Economy,B737,778,True,True,40
+1277,Vistara,UK497,Bengaluru,BLR,Singapore,SIN,2025-12-11 18:42,2025-12-12 01:36,414,6h54m,0,,Economy,B777,601,False,True,40
+1278,Air France,AF965,Bengaluru,BLR,Doha,DOH,2025-10-17 18:05,2025-10-18 05:50,705,11h45m,1,IST,Economy,A380,652,False,False,25
+1279,Lufthansa,LH328,Delhi,DEL,London,LON,2025-12-12 12:08,2025-12-12 20:25,497,8h17m,0,,Economy,A330,599,True,False,20
+1280,Turkish Airlines,TK172,Hyderabad,HYD,Doha,DOH,2025-11-16 02:21,2025-11-16 08:58,397,6h37m,0,,Economy,A320,452,True,True,30
+1281,IndiGo,6E246,Chennai,MAA,Doha,DOH,2025-10-31 23:13,2025-11-01 09:35,622,10h22m,1,SIN,Economy,B737,644,False,True,20
+1282,Qatar Airways,QR690,Bengaluru,BLR,London,LON,2025-12-14 11:22,2025-12-14 17:08,346,5h46m,0,,Economy,B787,483,False,False,40
+1283,Singapore Airlines,SQ304,Delhi,DEL,Paris,PAR,2025-12-11 04:33,2025-12-11 16:24,711,11h51m,2,"FRA,IST",Economy,A320,784,False,True,25
+1284,Emirates,EK492,Bengaluru,BLR,London,LON,2025-11-19 02:51,2025-11-19 11:26,515,8h35m,0,,Economy,A330,609,False,True,30
+1285,Qatar Airways,QR450,Chennai,MAA,Istanbul,IST,2025-12-27 18:22,2025-12-27 23:13,291,4h51m,0,,Business,B787,1333,True,True,25
+1286,Air India,AI703,Mumbai,BOM,Istanbul,IST,2025-11-19 05:52,2025-11-19 12:10,378,6h18m,0,,Business,A330,1729,False,True,20
+1287,Emirates,EK769,Hyderabad,HYD,Paris,PAR,2025-12-21 10:18,2025-12-21 17:41,443,7h23m,0,,Economy,A321,585,False,False,25
+1288,Air India,AI408,Mumbai,BOM,Istanbul,IST,2025-11-11 02:42,2025-11-11 12:46,604,10h04m,0,,Economy,B737,659,True,True,20
+1289,Emirates,EK609,Bengaluru,BLR,Paris,PAR,2025-10-20 12:52,2025-10-20 22:28,576,9h36m,0,,Business,A350,2174,False,False,25
+1290,IndiGo,6E312,Delhi,DEL,Doha,DOH,2025-12-07 01:37,2025-12-07 06:08,271,4h31m,0,,Economy,A321,476,False,False,25
+1291,Singapore Airlines,SQ176,Delhi,DEL,New York,NYC,2025-12-10 12:01,2025-12-10 22:53,652,10h52m,0,,Economy,A330,651,False,True,20
+1292,Air India,AI972,Mumbai,BOM,New York,NYC,2025-10-29 11:04,2025-10-29 19:48,524,8h44m,1,DOH,Economy,A321,693,True,True,25
+1293,IndiGo,6E736,Bengaluru,BLR,Dubai,DXB,2025-10-27 07:12,2025-10-27 17:05,593,9h53m,0,,Economy,B787,661,False,False,40
+1294,Qatar Airways,QR215,Chennai,MAA,Istanbul,IST,2025-10-14 02:46,2025-10-14 14:39,713,11h53m,1,LHR,Economy,A380,770,False,False,25
+1295,Lufthansa,LH726,Chennai,MAA,New York,NYC,2025-10-04 01:08,2025-10-04 11:42,634,10h34m,1,IST,Business,A321,2234,False,True,20
+1296,Singapore Airlines,SQ885,Bengaluru,BLR,Paris,PAR,2025-12-12 10:46,2025-12-12 23:08,742,12h22m,1,SIN,Business,A321,2491,False,True,25
+1297,Vistara,UK252,Bengaluru,BLR,Istanbul,IST,2025-12-21 17:05,2025-12-22 00:36,451,7h31m,0,,Economy,B737,579,False,False,25
+1298,IndiGo,6E428,Delhi,DEL,New York,NYC,2025-10-24 15:19,2025-10-25 00:47,568,9h28m,2,"SIN,LHR",Economy,B787,631,True,True,40
+1299,IndiGo,6E557,Chennai,MAA,Paris,PAR,2025-10-31 22:28,2025-11-01 08:19,591,9h51m,2,"LHR,FRA",Economy,A320,686,False,True,20
